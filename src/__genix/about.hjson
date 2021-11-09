@@ -1,0 +1,10 @@
+{
+    "Description": '''
+GENIX masternode'''
+    Links: [
+        { 
+            website: "https://genix.cx/",
+            explorer: "http://explorer.genix.cx/"
+        }
+    ]
+}
