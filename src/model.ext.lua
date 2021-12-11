@@ -12,7 +12,8 @@ am.app.set_model(
         CONF_NAME = "genix.conf",
         CONF_SOURCE = "__btc/assets/daemon.conf",
         SERVICE_NAME = "genixd",
-        ADD_NODES = am.app.get_configuration("ADD_NODES", { "161.43.201.255" })
+        ADD_NODES = am.app.get_configuration("ADD_NODES", { "161.43.201.255" }),
+        ABOUT_SOURCE = "__genix/about.hjson"
     },
     { merge = true, overwrite = true }
 )
