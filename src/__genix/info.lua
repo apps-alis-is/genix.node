@@ -64,7 +64,7 @@ if _info.genixd == 'running' then
         local _exitcode, _stdout, _stderr = _exec_genix_cli("-datadir=data", "masternode", "status")
         local _success, _output = _get_genix_cli_result(_exitcode, _stdout, _stderr)
 
-        _info.status = _output.message
+        _info.status = _output.status
         if not _success or (_info.status ~= 'Masternode successfully started' and _info.status ~= 'Ready') then
             _info.level = "error"
         end
