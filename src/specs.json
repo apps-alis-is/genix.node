@@ -1,6 +1,6 @@
 {
     "id": "genix.node" ,
-    "version" : "0.1.0",
+    "version" : "0.1.2+2.2.2.1",
     "dependencies": [
         { "id":"btc.base" }
     ]
